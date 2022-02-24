@@ -36,7 +36,7 @@ cd your_desktop
 Run below commands.
 
 ```
-git clone git@github.com:yigitm/morse-code-decoder.git
+git clone git@github.com:yigitm/ruby-enumerables.git
 ```
 
 ### Usage
@@ -44,7 +44,7 @@ git clone git@github.com:yigitm/morse-code-decoder.git
 Go to the app folder.
 
 ```
-cd morse-code-decoder
+cd ruby-enumerables
 ```
 
 Run the app with below command.
