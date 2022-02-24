@@ -1,34 +1,23 @@
 module MyEnumerable
   def all?
-    value = true
-    @list.each do |e|
-      item = yield(e)
-      unless item
-        value = false
-        break
-      end
+    each do |e|
+      return false unless yield(e)
     end
-    puts value
+    true
   end
 
   def any?
-    value = false
-    @list.each do |e|
-      item = yield(e)
-      if item
-        value = true
-        break
-      end
+    each do |e|
+      return true if yield(e)
     end
-    puts value
+    false
   end
 
   def filter
     arr = []
-    @list.each do |e|
-      item = yield(e)
-      arr.push(e) if item
+    each do |e|
+      arr << e if yield(e)
     end
-    print arr
+    arr
   end
 end
