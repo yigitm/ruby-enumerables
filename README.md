@@ -4,8 +4,6 @@
 
 > It takes a string parameter, and return the corresponding character in uppercase to decode the morse code.
 
-![](app_screenshot.png)
-
 ## Built With
 
 - Ruby
@@ -13,11 +11,11 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and run it; you can follow below steps.
 
 ### Prerequisites
 
-Ruby should be installed in your local machine. Please check this [article](https://rubyonrails.org/) how to install/setup Ruby for iOS or Windows.
+Ruby should be installed in your local machine. Please check this [article](https://www.ruby-lang.org/en/documentation/installation/) how to install/setup Ruby for MacOS or Windows.
 
 ### Setup
 
