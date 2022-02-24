@@ -4,8 +4,6 @@
 
 > It takes a string parameter, and return the corresponding character in uppercase to decode the morse code.
 
-![](app_screenshot.png)
-
 ## Built With
 
 - Ruby
