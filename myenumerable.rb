@@ -7,7 +7,6 @@ module MyEnumerable
         return
       end
     end
-
     puts true
     nil
   end
@@ -20,10 +19,19 @@ module MyEnumerable
         return
       end
     end
-
     puts false
     nil
   end
 
-  def filter; end
+  def filter
+    arr = []
+    @list.each do |e|
+      item = yield(e)
+      if item
+        arr.push(e)
+      end
+    end
+    print arr
+    return
+  end
 end
